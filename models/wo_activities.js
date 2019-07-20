@@ -17,21 +17,6 @@ module.exports = function(sequelize, DataTypes) {
 			allowNull: false,
 			defaultValue: '0'
 		},
-		reply_id: {
-			type: DataTypes.INTEGER(11).UNSIGNED,
-			allowNull: true,
-			defaultValue: '0'
-		},
-		comment_id: {
-			type: DataTypes.INTEGER(11).UNSIGNED,
-			allowNull: true,
-			defaultValue: '0'
-		},
-		follow_id: {
-			type: DataTypes.INTEGER(11),
-			allowNull: false,
-			defaultValue: '0'
-		},
 		activity_type: {
 			type: DataTypes.STRING(32),
 			allowNull: false,

@@ -13,7 +13,7 @@ module.exports = function(sequelize, DataTypes) {
 			defaultValue: ''
 		},
 		value: {
-			type: DataTypes.STRING(20000),
+			type: DataTypes.STRING(1000),
 			allowNull: false,
 			defaultValue: ''
 		}

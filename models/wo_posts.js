@@ -36,16 +36,6 @@ module.exports = function(sequelize, DataTypes) {
 			allowNull: false,
 			defaultValue: '0'
 		},
-		event_id: {
-			type: DataTypes.INTEGER(11),
-			allowNull: false,
-			defaultValue: '0'
-		},
-		page_event_id: {
-			type: DataTypes.INTEGER(11),
-			allowNull: false,
-			defaultValue: '0'
-		},
 		postLink: {
 			type: DataTypes.STRING(1000),
 			allowNull: false,
@@ -90,11 +80,6 @@ module.exports = function(sequelize, DataTypes) {
 			allowNull: false,
 			defaultValue: ''
 		},
-		postFileThumb: {
-			type: DataTypes.STRING(3000),
-			allowNull: false,
-			defaultValue: ''
-		},
 		postYoutube: {
 			type: DataTypes.STRING(255),
 			allowNull: false,
@@ -107,16 +92,6 @@ module.exports = function(sequelize, DataTypes) {
 		},
 		postSoundCloud: {
 			type: DataTypes.STRING(255),
-			allowNull: false,
-			defaultValue: ''
-		},
-		postPlaytube: {
-			type: DataTypes.STRING(500),
-			allowNull: false,
-			defaultValue: ''
-		},
-		postDeepsound: {
-			type: DataTypes.STRING(500),
 			allowNull: false,
 			defaultValue: ''
 		},
@@ -165,11 +140,6 @@ module.exports = function(sequelize, DataTypes) {
 			allowNull: false,
 			defaultValue: ''
 		},
-		postPhoto: {
-			type: DataTypes.STRING(3000),
-			allowNull: false,
-			defaultValue: ''
-		},
 		time: {
 			type: DataTypes.INTEGER(11),
 			allowNull: false,
@@ -201,54 +171,6 @@ module.exports = function(sequelize, DataTypes) {
 			defaultValue: '0'
 		},
 		poll_id: {
-			type: DataTypes.INTEGER(11),
-			allowNull: false,
-			defaultValue: '0'
-		},
-		blog_id: {
-			type: DataTypes.INTEGER(11),
-			allowNull: false,
-			defaultValue: '0'
-		},
-		videoViews: {
-			type: DataTypes.INTEGER(11),
-			allowNull: false,
-			defaultValue: '0'
-		},
-		postRecord: {
-			type: DataTypes.STRING(3000),
-			allowNull: false,
-			defaultValue: ''
-		},
-		postSticker: {
-			type: DataTypes.TEXT,
-			allowNull: true
-		},
-		shared_from: {
-			type: DataTypes.INTEGER(15),
-			allowNull: false,
-			defaultValue: '0'
-		},
-		post_url: {
-			type: DataTypes.TEXT,
-			allowNull: true
-		},
-		parent_id: {
-			type: DataTypes.INTEGER(15),
-			allowNull: false,
-			defaultValue: '0'
-		},
-		cache: {
-			type: DataTypes.INTEGER(11),
-			allowNull: false,
-			defaultValue: '0'
-		},
-		comments_status: {
-			type: DataTypes.INTEGER(11),
-			allowNull: false,
-			defaultValue: '1'
-		},
-		blur: {
 			type: DataTypes.INTEGER(11),
 			allowNull: false,
 			defaultValue: '0'

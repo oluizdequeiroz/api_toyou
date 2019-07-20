@@ -11,11 +11,6 @@ module.exports = function(sequelize, DataTypes) {
 			type: DataTypes.STRING(160),
 			allowNull: true
 		},
-		type: {
-			type: DataTypes.STRING(100),
-			allowNull: false,
-			defaultValue: ''
-		},
 		english: {
 			type: DataTypes.TEXT,
 			allowNull: true

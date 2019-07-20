@@ -12,11 +12,6 @@ module.exports = function(sequelize, DataTypes) {
 			allowNull: false,
 			defaultValue: '0'
 		},
-		group_id: {
-			type: DataTypes.INTEGER(11),
-			allowNull: false,
-			defaultValue: '0'
-		},
 		to_id: {
 			type: DataTypes.INTEGER(11),
 			allowNull: false,
@@ -60,25 +55,6 @@ module.exports = function(sequelize, DataTypes) {
 			type: DataTypes.ENUM('0','1'),
 			allowNull: false,
 			defaultValue: '0'
-		},
-		sent_push: {
-			type: DataTypes.INTEGER(11),
-			allowNull: false,
-			defaultValue: '0'
-		},
-		notification_id: {
-			type: DataTypes.STRING(50),
-			allowNull: false,
-			defaultValue: ''
-		},
-		type_two: {
-			type: DataTypes.STRING(32),
-			allowNull: false,
-			defaultValue: ''
-		},
-		stickers: {
-			type: DataTypes.TEXT,
-			allowNull: true
 		}
 	}, {
 		timestamps: false,

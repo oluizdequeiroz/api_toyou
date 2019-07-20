@@ -7,9 +7,19 @@ module.exports = function(sequelize, DataTypes) {
 			allowNull: false,
 			primaryKey: true
 		},
+		call_id: {
+			type: DataTypes.STRING(30),
+			allowNull: false,
+			defaultValue: '0'
+		},
 		access_token: {
 			type: DataTypes.TEXT,
 			allowNull: true
+		},
+		call_id_2: {
+			type: DataTypes.STRING(30),
+			allowNull: false,
+			defaultValue: ''
 		},
 		access_token_2: {
 			type: DataTypes.TEXT,
@@ -24,11 +34,6 @@ module.exports = function(sequelize, DataTypes) {
 			type: DataTypes.INTEGER(11),
 			allowNull: false,
 			defaultValue: '0'
-		},
-		room_name: {
-			type: DataTypes.STRING(50),
-			allowNull: false,
-			defaultValue: ''
 		},
 		active: {
 			type: DataTypes.INTEGER(11),

@@ -26,11 +26,6 @@ module.exports = function(sequelize, DataTypes) {
 			type: DataTypes.TEXT,
 			allowNull: true
 		},
-		record: {
-			type: DataTypes.STRING(255),
-			allowNull: false,
-			defaultValue: ''
-		},
 		c_file: {
 			type: DataTypes.STRING(255),
 			allowNull: false,

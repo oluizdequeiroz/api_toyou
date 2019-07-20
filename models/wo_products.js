@@ -44,21 +44,6 @@ module.exports = function(sequelize, DataTypes) {
 			type: DataTypes.ENUM('0','1'),
 			allowNull: false
 		},
-		currency: {
-			type: DataTypes.STRING(40),
-			allowNull: false,
-			defaultValue: 'USD'
-		},
-		lng: {
-			type: DataTypes.STRING(100),
-			allowNull: false,
-			defaultValue: '0'
-		},
-		lat: {
-			type: DataTypes.STRING(100),
-			allowNull: false,
-			defaultValue: '0'
-		},
 		time: {
 			type: DataTypes.INTEGER(11),
 			allowNull: false,

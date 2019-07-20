@@ -2,7 +2,7 @@
   "development": {
     "username": "root",
     "password": "T0y0u$oc1al",
-    "database": "wowonder_test",
+    "database": "toyousoc_toyou_rede",
     "host": "116.203.88.49",
     "dialect": "mysql",
     "operatorsAliases": false
@@ -10,7 +10,7 @@
   "test": {
     "username": "root",
     "password": "T0y0u$oc1al",
-    "database": "wowonder_test",
+    "database": "toyousoc_toyou_rede",
     "host": "116.203.88.49",
     "dialect": "mysql",
     "operatorsAliases": false

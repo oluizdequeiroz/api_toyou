@@ -27,11 +27,6 @@ module.exports = function(sequelize, DataTypes) {
 			allowNull: false,
 			defaultValue: '0'
 		},
-		event_id: {
-			type: DataTypes.INTEGER(11),
-			allowNull: false,
-			defaultValue: '0'
-		},
 		active: {
 			type: DataTypes.ENUM('0','1'),
 			allowNull: false,

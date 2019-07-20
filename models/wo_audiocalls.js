@@ -35,11 +35,6 @@ module.exports = function(sequelize, DataTypes) {
 			allowNull: false,
 			defaultValue: '0'
 		},
-		room_name: {
-			type: DataTypes.STRING(50),
-			allowNull: false,
-			defaultValue: ''
-		},
 		active: {
 			type: DataTypes.INTEGER(11),
 			allowNull: false,

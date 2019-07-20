@@ -22,42 +22,12 @@ module.exports = function(sequelize, DataTypes) {
 			allowNull: false,
 			defaultValue: '0'
 		},
-		reply_id: {
-			type: DataTypes.INTEGER(11).UNSIGNED,
-			allowNull: true,
-			defaultValue: '0'
-		},
-		comment_id: {
-			type: DataTypes.INTEGER(11).UNSIGNED,
-			allowNull: true,
-			defaultValue: '0'
-		},
 		page_id: {
 			type: DataTypes.INTEGER(11),
 			allowNull: false,
 			defaultValue: '0'
 		},
 		group_id: {
-			type: DataTypes.INTEGER(11),
-			allowNull: false,
-			defaultValue: '0'
-		},
-		event_id: {
-			type: DataTypes.INTEGER(11),
-			allowNull: false,
-			defaultValue: '0'
-		},
-		thread_id: {
-			type: DataTypes.INTEGER(11),
-			allowNull: false,
-			defaultValue: '0'
-		},
-		blog_id: {
-			type: DataTypes.INTEGER(11),
-			allowNull: false,
-			defaultValue: '0'
-		},
-		story_id: {
 			type: DataTypes.INTEGER(11),
 			allowNull: false,
 			defaultValue: '0'
@@ -86,17 +56,7 @@ module.exports = function(sequelize, DataTypes) {
 			allowNull: false,
 			defaultValue: ''
 		},
-		full_link: {
-			type: DataTypes.STRING(1000),
-			allowNull: false,
-			defaultValue: ''
-		},
 		seen: {
-			type: DataTypes.INTEGER(11),
-			allowNull: false,
-			defaultValue: '0'
-		},
-		sent_push: {
 			type: DataTypes.INTEGER(11),
 			allowNull: false,
 			defaultValue: '0'

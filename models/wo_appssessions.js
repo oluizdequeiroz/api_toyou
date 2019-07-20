@@ -23,10 +23,6 @@ module.exports = function(sequelize, DataTypes) {
 			allowNull: false,
 			defaultValue: ''
 		},
-		platform_details: {
-			type: DataTypes.TEXT,
-			allowNull: true
-		},
 		time: {
 			type: DataTypes.INTEGER(11),
 			allowNull: false,
